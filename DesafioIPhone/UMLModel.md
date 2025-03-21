@@ -2,7 +2,7 @@
 
 ```mermaid
 classDiagram
-    class iPad {
+    class iPod {
         +tocar()
         +pausar()
         +selecionarMusica(String musica)
@@ -23,7 +23,7 @@ classDiagram
     class iPhone {
     }
 
-    iPhone --> iPad
+    iPhone --> iPod
     iPhone --> Phone
     iPhone --> InternetCommunicator
 ```
